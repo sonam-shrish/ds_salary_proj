@@ -10,4 +10,6 @@ import pandas as pd
 
 path="C:/Users/admlocal/Desktop/chromedriver.exe"
 
-gs.get_jobs("data_science", 30, False, path, 15)
+df = gs.get_jobs("data_science", 50, False, path, 15)
+
+df
